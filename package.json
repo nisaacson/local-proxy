@@ -1,6 +1,6 @@
 {
   "name": "quick-proxy",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Proxy all requests on port 80 to port 8080",
   "main": "index.js",
   "directories": {
