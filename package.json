@@ -1,0 +1,27 @@
+{
+  "name": "simple-proxy",
+  "version": "0.0.1",
+  "description": "Proxy all requests on port 80 to port 8080",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "",
+  "author": "Noah Isaacson",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "~2.16.6",
+    "eyespect": "~0.1.8",
+    "optimist": "~0.4.0"
+  },
+  "devDependencies": {
+    "should": "~1.2.2",
+    "mocha": "~1.9.0",
+    "express": "~3.2.0"
+  },
+  "bin": "startProxy.js"
+}
