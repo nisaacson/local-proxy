@@ -1,20 +1,20 @@
-# Local Proxy Server
-Proxy all requests on a given port another to port on localhost. 
+# Quick Proxy Server
+Proxy all requests on a given port another to port on quickhost. 
 
 # Installation
-`npm install -g local-proxy`
+`npm install -g quick-proxy`
 
 # Usage
 
 ```bash
-local-proxy --listen-port <port to listen to> --forward-port <port to forward to>
+quick-proxy --listen-port <port to listen to> --forward-port <port to forward to>
 ```
 
 # Example
 Say you have a Jenkins server running on port 8080 and you want to connect via port 80. You would run simple-proxy with the command
 
 ```
-local-proxy --listen-port 80 --forward-port 8080
+quick-proxy --listen-port 80 --forward-port 8080
 ```
 
 # Test

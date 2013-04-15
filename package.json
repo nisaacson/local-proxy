@@ -1,5 +1,5 @@
 {
-  "name": "local-proxy",
+  "name": "quick-proxy",
   "version": "0.0.1",
   "description": "Proxy all requests on port 80 to port 8080",
   "main": "index.js",
