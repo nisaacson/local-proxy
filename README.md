@@ -17,6 +17,17 @@ Say you have a Jenkins server running on port 8080 and you want to connect via p
 quick-proxy --listen-port 80 --forward-port 8080
 ```
 
+## Alias
+
+* `--listen-port` is aliased to `-l`
+* `--forward-port` is aliased to `-f`
+
+The example above can be shortened to 
+
+```
+quick-proxy -l 80 -f 8080
+```
+
 # Test
 
 ```bash
